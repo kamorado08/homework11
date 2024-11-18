@@ -10,11 +10,11 @@ const {isAuthenticated} = useAuth()
 
 // routes and paths of each page.
 const routes = [
-  { path: '/', name: 'Home', component: HomePage },
-  { path: '/other', name: 'Other', component: () => import('@/views/OtherPage.vue') },
-  { path: '/employees/:id', name: 'CardDetails', component: CardDetails },
-  { path: '/login', name: 'LoginPage', component: LoginPage },
-  { path: '/settings', name: 'SettingsPage', component: SettingsPage, meta: {requiresAuth: true} }
+  { path: '/homework11/', name: 'Home', component: HomePage },
+  { path: '/homework11/other', name: 'Other', component: () => import('@/views/OtherPage.vue') },
+  { path: '/homework11/employees/:id', name: 'CardDetails', component: CardDetails },
+  { path: '/homework11/login', name: 'LoginPage', component: LoginPage },
+  { path: '/homework11/settings', name: 'SettingsPage', component: SettingsPage, meta: {requiresAuth: true} }
 ]
 
 const router = createRouter({
